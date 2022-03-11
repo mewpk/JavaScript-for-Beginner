@@ -1,18 +1,18 @@
-console.log("Hello world");
-var height = 175;
-const name = "MewPK";
+console.log("Marian Onilne");
+var height = 200;
+const Nickname = "MaMa";
 const ismale = false;
-var city = null;
+var money = null;
 let bigNumber = 10n //bignit JS 2020
 
-console.log(height,name,ismale,city,bigNumber);
+console.log(height,Nickname,ismale,money,bigNumber);
 
 
-// เรื่อง Object and Array
+// เรื่อง Object 
 const Person = {
-    name : "Mew JAA",
-    age : 18,
-    height : 168,
+    name : "MA JAA",
+    age : 99,
+    height : 200,
     city : "Bangkok"
 }
 
@@ -23,9 +23,11 @@ Person.name = "Yea Miko"
 
 console.log(Person.name)
 
-Person.weight = 49
+Person.weight = 60
 
 console.log(Person)
+
+// เรื่อง  Array
 
 const animals = ["Fish","Cat","Dog"]
 
@@ -33,7 +35,7 @@ console.log(animals)
 
 console.log(animals[0])
 
-animals.push("Tiger")
+animals.push("Tiger") //เพิ่มค่าด้านหลัง
 
 console.log(animals)
 
